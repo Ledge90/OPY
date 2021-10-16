@@ -3,34 +3,34 @@ using System;
 class zadacha {
 	static void Main() {
 		while(true) {
-			Console.WriteLine(Введите номер для недели);
+			Console.WriteLine(Г‚ГўДєГ¤ДЌЕ€Дє Г­Г®Д›ДєД‘ Г¤Г«Л™ Г­ДєГ¤ДєГ«ДЌ);
 			
-			int number = Convert.ToInt(Console.ReadLine());
+			int number = Convert.ToInt(Console.ReadLine()); # РѕР±СЉСЏРІР»СЏРµРј РїРµСЂРµРјРµРЅРЅСѓСЋ
 			
-			switch (number) {
+			switch (number) { # РќР°С‡РёРЅР°РµРј СЃСЂР°РІРЅРёРІР°С‚СЊ С‡РёСЃР»Рѕ РєРѕС‚РѕСЂРѕРµ РІРІРµР» С‡РµР»РѕРІРµРє Рё РІС‹РІРѕРґРёРј РµРіРѕ
 				case 1:
-					Console.WriteLine("Понедельник");
+					Console.WriteLine("ДЋГ®Г­ДєГ¤ДєГ«ГјГ­ДЌД™");
 					bread;
 				case 2:
-					Console.WriteLine("Вторник");
+					Console.WriteLine("Г‚Е€Г®Д‘Г­ДЌД™");
 					bread;
 				case 3:
-					Console.WriteLine("Среда");
+					Console.WriteLine("ЕѓД‘ДєГ¤Е•");
 					bread;
 				case 4:
-					Console.WriteLine("Четверг");
+					Console.WriteLine("Г—ДєЕ€ГўДєД‘Дѓ");
 					bread;
 				case 5:
-					Console.WriteLine("Пятница");
+					Console.WriteLine("ДЋЛ™Е€Г­ДЌГ¶Е•");
 					bread;
 				case 6:
-					Console.WriteLine("Суббота");
+					Console.WriteLine("ЕѓГіГЎГЎГ®Е€Е•");
 					bread;
 				case 7:
-					Console.WriteLine("Воскресенье");
+					Console.WriteLine("Г‚Г®Е„Д™Д‘ДєЕ„ДєГ­ГјДє");
 					bread;
 				default:
-					Console.WriteLine("Вы ввели число большее семи, а дней в недели как раз 7");
+					Console.WriteLine("Г‚Е± ГўГўДєГ«ДЌ Г·ДЌЕ„Г«Г® ГЎГ®Г«ГјЕ™ДєДє Е„ДєД›ДЌ, Е• Г¤Г­ДєГ© Гў Г­ДєГ¤ДєГ«ДЌ Д™Е•Д™ Д‘Е•Г§ 7");
 					bread;
 			}
 		}
