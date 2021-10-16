@@ -1,11 +1,3 @@
-/******************************************************************************
-
-                            Online C# Compiler.
-                Code, Compile, Run and Debug C# program online.
-Write your code in this editor and press "Run" button to execute it.
-
-*******************************************************************************/
-
 using System;
 
 class HelloWorld 
@@ -13,21 +5,21 @@ class HelloWorld
     
   static void Main(string[] args)
   {
-    double A = Convert.ToDouble(Console.ReadLine());
+    double A = Convert.ToDouble(Console.ReadLine()); # объявляем переменные
     double B = Convert.ToDouble(Console.ReadLine());
     double C = Convert.ToDouble(Console.ReadLine());
     
-    if ((A > B) && (A > C)) 
+    if ((A > B) && (A > C)) # Если А больше других то выводим А
     {
         Console.WriteLine(A);
     }
-    else if ((B > A) && (B > C)) 
+    else if ((B > A) && (B > C)) # Если B больше других то выводим B
     {
         Console.WriteLine(B);
     }
     else 
     {
-        Console.WriteLine(C);
+        Console.WriteLine(C); # Если С больше других то выводим С
     }
     
     
