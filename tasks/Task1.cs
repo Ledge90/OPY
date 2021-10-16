@@ -1,3 +1,5 @@
+# Завести переменные A, B, C и выводить самую большую из них
+
 using System;
 
 class HelloWorld 
