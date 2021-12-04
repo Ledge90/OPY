@@ -3,7 +3,7 @@
 using System;
 using System.Linq;
 
-namespace Exercise4
+namespace Task22
 {
     internal class Program
     {
