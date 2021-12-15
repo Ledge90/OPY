@@ -21,8 +21,8 @@ namespace Perimetr_2
                 Console.WriteLine("Enter the three sides of the triangle: ");
                 int katet_1 = int.Parse(Console.ReadLine());
                 int katet_2 = int.Parse(Console.ReadLine());
-                int resolt = int.Parse(Console.ReadLine());
-                Perimetr(katet_1, katet_2, resolt);
+                int katet_3 = int.Parse(Console.ReadLine());
+                Perimetr(katet_1, katet_2, katet_3);
             }
         }
         static void Perimetr(int a, int b, int c)
