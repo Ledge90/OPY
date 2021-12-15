@@ -24,8 +24,8 @@ namespace Perimetr
                 Console.WriteLine("Введите три стороны треугольника: ");
                 int katet1 = int.Parse(Console.ReadLine());
                 int katet2 = int.Parse(Console.ReadLine());
-                int resolt = int.Parse(Console.ReadLine());
-                Console.WriteLine($"Периметр равен: {Perimetr(katet1, katet2, resolt)}");
+                int katet3 = int.Parse(Console.ReadLine());
+                Console.WriteLine($"Периметр равен: {Perimetr(katet1, katet2, katet3)}");
             }
         }
     }
